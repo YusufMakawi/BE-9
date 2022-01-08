@@ -10,18 +10,18 @@
      }
  }
  
- const destroy = (buah) => {
-     view.splice(buah, 1);
+ const destroy = (hewan) => {
+     view.splice(hewan, 1);
      index();
  }
  
- const store = (buah) => {
-     view.push(buah);
+ const store = (hewan) => {
+     view.push(hewan);
      index();
  }
  
- const update = (buah, edit) => {
-     view[buah] = edit;
+ const update = (hewan, edit) => {
+     view[hewan] = edit;
      index();
  }
  
