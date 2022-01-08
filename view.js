@@ -3,7 +3,7 @@
  * 
  * module.exports digunakan menyampaikan ke semua file
  */
- const view = ["Alpukat", "Apel", "Lontar", "Kelapa"];
+ const view = ["Anjing", "Babi", "Monyet", "Kucing"];
 
  /**
   * resource yang akan ditampilkan ke seluruh file
